@@ -1,6 +1,6 @@
 # ytpy
 
-Trying to figure out how to automating stuff
+Trying to figure out how to automate stuff
 * Converting yt video to mp3 or mp4
 * for laughs and kicks 
 
@@ -10,22 +10,23 @@ Trying to figure out how to automating stuff
 
 
 **Installation Notes:**
-* Clone this repo 
-* *Linux*: install .venv `python -m venv .venv`
-    * *before running* `source .venv/bin/activate`
-    * *run* `python mp3.py`
+1. Clone this repo 
+2. *General*:
+`pip install --upgrade pip`
+`pip install yt-dlp`
 
-* *Windows*: 
-    * *run* `python mp3.py`
+3. *OS Specific*
+   * *Linux*: install .venv `python -m venv .venv`
+       * *before running* `source .venv/bin/activate`
+       * *run* `python mp3.py`
+   
+   * *Windows*: 
+       * *run* `python mp3.py`
+   
+   * *Mac*:
+       * Have not tested
 
-* *Mac*:
-    * Have not tested
-
-* *General*:
-`pip install --upgrade pip
-pip install yt-dlp`
-
-* *cookies.txt*
+4. *cookies.txt*
     * Install cookies.txt extension in browser
     * Go to YouTube and go to toolbar, click on extension, and download file into this project
 
