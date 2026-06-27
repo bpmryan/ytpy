@@ -1,0 +1,7 @@
+# Ignore the Python Virtual Environment
+venv/
+.venv/
+env/
+
+# Ignore sensitive login cookies
+cookies.txt
