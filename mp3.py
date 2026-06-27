@@ -1,9 +1,10 @@
 import os 
 import subprocess 
 
-input_vid = "media/"
+input_vid = input("Enter link to the video: ")
+print("You entered: ", input_vid)
 
-def convert_mp3(input,  output):
+def convert_mp3(input, output):
     ffmpeg_cmd = [
         "ffmpeg",
         "-i", input,
@@ -21,5 +22,5 @@ def convert_mp3(input,  output):
     except subprocess.CalledProcessError as e:
         print(f"Error during conversion: {e}")
 
-
-convert_mp3({input_vid}, "output_audio.mp3")
+# function call to convert the video to mp3 format and save it in the Downloads folder
+convert_mp3({input_vid}, "Downloads/test.mp3")
