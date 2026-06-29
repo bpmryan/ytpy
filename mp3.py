@@ -77,6 +77,10 @@ def convert_mp3(url, output_directory, download_playlist):
         "ignoreerrors": True,
     }
 
+    # check if os is windows
+    if os.path.exists(r"C:\ffmpeg\bin"):
+        ydl_opts["ffmpeg_location"] = r"C:\ffmpeg\bin"
+
     try:
         print("\nStarting download/conversion process. Please wait...")
         with YoutubeDL(ydl_opts) as ydl:
