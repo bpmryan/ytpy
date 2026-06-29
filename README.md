@@ -13,7 +13,7 @@ Trying to figure out how to automate stuff
 **Installation Notes:**
 1. Clone/download zip this repo 
 2. *General*:
-`pip install --upgrade pip`
+`pip install --upgrade pip`  
 `pip install yt-dlp`
 
 4. *cookies.txt*
