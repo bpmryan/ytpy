@@ -2,6 +2,7 @@
 
 Trying to figure out how to automate stuff
 * Converting yt video to wave, mp3, or mp4
+    * have not consolidated option for mp4 and wave yet
 * for laughs and kicks 
 
 **Sources**
@@ -12,7 +13,7 @@ Trying to figure out how to automate stuff
 
 **Installation Notes:**
 1. Clone/download zip this repo 
-2. *General*:
+2. *General*:  
 `pip install --upgrade pip`  
 `pip install yt-dlp`
 
@@ -23,6 +24,8 @@ Trying to figure out how to automate stuff
 5. *OS Specific*
    * *Linux*: install .venv `python -m venv .venv`
        * *before running* `source .venv/bin/activate`
+       * *install* ffmpeg 
+            * *example* `sudo pacman -S ffmpeg`
        * *run* `python mp3.py`
    
    * *Windows*:
