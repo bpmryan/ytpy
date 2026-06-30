@@ -1,10 +1,9 @@
 # ytpy
 
 ## Features:
-* Convert media into mp3, wave, or mp4 (not yet)
+* Convert media into mp3 or wav
     * Applicable media:
         * Youtube videos and playlists
-        * Spotify songs and playlists (not yet)
 
 * Terminal program to activates with following commands below (depending on user's OS)
 
