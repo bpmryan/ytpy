@@ -1,17 +1,20 @@
 # ytpy
 
-Trying to figure out how to automate stuff
-* Converting yt video to wave, mp3, or mp4
-    * have not consolidated option for mp4 and wave yet
-* for laughs and kicks 
+## Features:
+* Convert media into mp3, wave, or mp4 (not yet)
+    * Applicable media:
+        * Youtube videos and playlists
+        * Spotify songs and playlists (not yet)
 
-**Sources**
+* Terminal program to activates with following commands below (depending on user's OS)
+
+## Sources:
 * [Powers of Python 5:20](https://www.youtube.com/watch?v=vEQ8CXFWLZU&t=320s)
 * [Convert Videos to MP3 with FFmpeg in Python](https://www.youtube.com/watch?v=ucXTQ0V8qMA)
-* [ffmpeg](https://www.gyan.dev/ffmpeg/builds/)
+* [ffmpeg download](https://www.gyan.dev/ffmpeg/builds/)
 
 
-**Installation Notes:**
+## Installation Notes/Guide:
 1. Clone/download zip this repo 
 2. *General*:  
 `pip install --upgrade pip`  
@@ -33,6 +36,6 @@ Trying to figure out how to automate stuff
        * *run* `python mp3.py`
    
    * *Mac*:
-       * Have not tested
+       * Has not been tested
 
 
